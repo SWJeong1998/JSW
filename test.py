@@ -1,5 +1,5 @@
 def test(a,b):
-     if a == b:
+     if a != b:
        logging.info('Test Succeeded')
        print('True')
      else:
