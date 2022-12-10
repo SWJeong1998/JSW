@@ -3,5 +3,5 @@ def test(a,b):
        logging.info('Test Succeeded')
        print('True')
      else:
-       logging.info('Test Failure')
+       logging.warn('Test Failure')
        print('False')
